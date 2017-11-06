@@ -5356,3 +5356,94 @@
 2017-11-06T21:14:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to 63.250.192.46:25 from ::1:10118
 2017-11-06T21:15:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] got channel 'direct-tcpip' request
 2017-11-06T21:15:01+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to 63.250.192.46:25 from ::1:24807
+2017-11-06T21:15:22+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 178.21.117.189:48201 (10.3.66.85:2222) [session: 7a327d13f4bf]
+2017-11-06T21:15:22+0000 [HoneyPotSSHTransport,3359,178.21.117.189] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-11-06T21:15:22+0000 [HoneyPotSSHTransport,3359,178.21.117.189] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-11-06T21:15:22+0000 [HoneyPotSSHTransport,3359,178.21.117.189] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-06T21:15:22+0000 [HoneyPotSSHTransport,3359,178.21.117.189] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-06T21:15:22+0000 [HoneyPotSSHTransport,3359,178.21.117.189] NEW KEYS
+2017-11-06T21:15:22+0000 [HoneyPotSSHTransport,3359,178.21.117.189] starting service 'ssh-userauth'
+2017-11-06T21:15:22+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3359,178.21.117.189] 'libuuid' trying auth 'password'
+2017-11-06T21:15:22+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3359,178.21.117.189] login attempt [libuuid/libuuid123] failed
+2017-11-06T21:15:23+0000 [-] 'libuuid' failed auth 'password'
+2017-11-06T21:15:23+0000 [-] unauthorized login: 
+2017-11-06T21:15:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3359,178.21.117.189] 'libuuid' trying auth 'password'
+2017-11-06T21:15:23+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3359,178.21.117.189] login attempt [libuuid/zxcvbnm] failed
+2017-11-06T21:15:24+0000 [-] 'libuuid' failed auth 'password'
+2017-11-06T21:15:24+0000 [-] unauthorized login: 
+2017-11-06T21:15:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3359,178.21.117.189] 'libuuid' trying auth 'password'
+2017-11-06T21:15:24+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3359,178.21.117.189] login attempt [libuuid/plokiju] failed
+2017-11-06T21:15:25+0000 [-] 'libuuid' failed auth 'password'
+2017-11-06T21:15:25+0000 [-] unauthorized login: 
+2017-11-06T21:15:25+0000 [HoneyPotSSHTransport,3359,178.21.117.189] connection lost
+2017-11-06T21:15:25+0000 [HoneyPotSSHTransport,3359,178.21.117.189] Connection lost after 3 seconds
+2017-11-06T21:16:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] got channel 'direct-tcpip' request
+2017-11-06T21:16:06+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to mail.yahoo.com:443 from ::1:41028
+2017-11-06T21:16:06+0000 [SSHChannel cowrie-discarded-direct-tcpip (300) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] discarded direct-tcp forward request to mail.yahoo.com:443 with data "\x16\x03\x01\x01E\x01\x00\x01A\x03\x03Y\x1d]\xb2\x11\xc5\xeaH\xab.\xea\xe7\xebV`\x18\x86\xceG\xbd\xd5`\xb7f\xd7,\x8a\xd5N\xb3\xb6\xc3\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00l\x00\x00\x00\x13\x00\x11\x00\x00\x0email.yahoo.com\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-11-06T21:16:06+0000 [SSHChannel cowrie-discarded-direct-tcpip (300) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] failed to connect: Connection refused
+2017-11-06T21:16:06+0000 [SSHChannel cowrie-discarded-direct-tcpip (300) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] sending close 300
+2017-11-06T21:16:28+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 184.154.43.242:47870 (10.3.66.85:2222) [session: d39aca763c28]
+2017-11-06T21:16:28+0000 [HoneyPotSSHTransport,3360,184.154.43.242] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-11-06T21:16:28+0000 [HoneyPotSSHTransport,3360,184.154.43.242] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-11-06T21:16:28+0000 [HoneyPotSSHTransport,3360,184.154.43.242] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-06T21:16:28+0000 [HoneyPotSSHTransport,3360,184.154.43.242] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-06T21:16:28+0000 [HoneyPotSSHTransport,3360,184.154.43.242] NEW KEYS
+2017-11-06T21:16:28+0000 [HoneyPotSSHTransport,3360,184.154.43.242] starting service 'ssh-userauth'
+2017-11-06T21:16:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3360,184.154.43.242] 'server' trying auth 'password'
+2017-11-06T21:16:29+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3360,184.154.43.242] login attempt [server/server] failed
+2017-11-06T21:16:30+0000 [-] 'server' failed auth 'password'
+2017-11-06T21:16:30+0000 [-] unauthorized login: 
+2017-11-06T21:16:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3360,184.154.43.242] 'server' trying auth 'password'
+2017-11-06T21:16:30+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3360,184.154.43.242] login attempt [server/server123] failed
+2017-11-06T21:16:31+0000 [-] 'server' failed auth 'password'
+2017-11-06T21:16:31+0000 [-] unauthorized login: 
+2017-11-06T21:16:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3360,184.154.43.242] 'server' trying auth 'password'
+2017-11-06T21:16:31+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3360,184.154.43.242] login attempt [server/server@123] failed
+2017-11-06T21:16:32+0000 [-] 'server' failed auth 'password'
+2017-11-06T21:16:32+0000 [-] unauthorized login: 
+2017-11-06T21:16:32+0000 [HoneyPotSSHTransport,3360,184.154.43.242] connection lost
+2017-11-06T21:16:32+0000 [HoneyPotSSHTransport,3360,184.154.43.242] Connection lost after 4 seconds
+2017-11-06T21:16:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] got channel 'direct-tcpip' request
+2017-11-06T21:16:46+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to 95.213.11.139:443 from ::1:47656
+2017-11-06T21:16:46+0000 [SSHChannel cowrie-discarded-direct-tcpip (301) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] discarded direct-tcp forward request to 95.213.11.139:443 with data "\x16\x03\x01\x01.\x01\x00\x01*\x03\x03\x9c8:gDz\xfbkK\x8e\xdc\xb5Y\xfc\xb1\x89\x1eT\xa1a\xdd9V\x18\x16\xd6f\x94\x1f\x142\xa9\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-11-06T21:16:46+0000 [SSHChannel cowrie-discarded-direct-tcpip (301) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] failed to connect: Connection refused
+2017-11-06T21:16:46+0000 [SSHChannel cowrie-discarded-direct-tcpip (301) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] sending close 301
+2017-11-06T21:17:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] got channel 'direct-tcpip' request
+2017-11-06T21:17:03+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to 98.138.112.34:25 from ::1:36631
+2017-11-06T21:17:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] got channel 'direct-tcpip' request
+2017-11-06T21:17:08+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to 98.138.112.34:25 from ::1:35187
+2017-11-06T21:17:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] got channel 'direct-tcpip' request
+2017-11-06T21:17:30+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to mail.google.com:80 from ::1:26814
+2017-11-06T21:17:30+0000 [SSHChannel cowrie-discarded-direct-tcpip (304) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] discarded direct-tcp forward request to mail.google.com:80 with data 'GET /mail/ HTTP/1.1\r\nHost: mail.google.com\r\nUser-Agent: Opera/9.60 (J2ME/MIDP; Opera Mini/4.2.13337/724; U; en) Presto/2.2.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\n\r\n'
+2017-11-06T21:17:30+0000 [SSHChannel cowrie-discarded-direct-tcpip (304) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] failed to connect: Connection refused
+2017-11-06T21:17:30+0000 [SSHChannel cowrie-discarded-direct-tcpip (304) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] sending close 304
+2017-11-06T21:18:02+0000 [SSHChannel cowrie-discarded-direct-tcpip (304) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] discarded direct-tcp forward request to mail.google.com:80 with data 'GET /mail/ HTTP/1.1\r\nHost: mail.google.com\r\nUser-Agent: Opera/9.60 (J2ME/MIDP; Opera Mini/4.2.13337/724; U; en) Presto/2.2.0\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nAccept-Language: en-US,en;q=0.5\r\nAccept-Encoding: gzip, deflate\r\nConnection: keep-alive\r\n\r\n'
+2017-11-06T21:18:02+0000 [SSHChannel cowrie-discarded-direct-tcpip (304) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] failed to connect: Connection refused
+2017-11-06T21:18:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] got channel 'direct-tcpip' request
+2017-11-06T21:18:39+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] direct-tcp connection request to 95.213.11.139:443 from ::1:11563
+2017-11-06T21:18:39+0000 [SSHChannel cowrie-discarded-direct-tcpip (305) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] discarded direct-tcp forward request to 95.213.11.139:443 with data "\x16\x03\x01\x01.\x01\x00\x01*\x03\x03k\xa1]\xdc\xfc|i\x8b\xe2\x00j\x10R\xf5\x18,\x925\rD\x98\xce\xfc\x1f\x99\xf8\xc9\x7f\xe4\xceg@\x00\x00\xac\xc00\xc0,\xc0(\xc0$\xc0\x14\xc0\n\x00\xa5\x00\xa3\x00\xa1\x00\x9f\x00k\x00j\x00i\x00h\x009\x008\x007\x006\x00\x88\x00\x87\x00\x86\x00\x85\xc02\xc0.\xc0*\xc0&\xc0\x0f\xc0\x05\x00\x9d\x00=\x005\x00\x84\xc0/\xc0+\xc0'\xc0#\xc0\x13\xc0\t\x00\xa4\x00\xa2\x00\xa0\x00\x9e\x00g\x00@\x00?\x00>\x003\x002\x001\x000\x00\x9a\x00\x99\x00\x98\x00\x97\x00E\x00D\x00C\x00B\xc01\xc0-\xc0)\xc0%\xc0\x0e\xc0\x04\x00\x9c\x00<\x00/\x00\x96\x00A\x00\x07\xc0\x11\xc0\x07\xc0\x0c\xc0\x02\x00\x05\x00\x04\xc0\x12\xc0\x08\x00\x16\x00\x13\x00\x10\x00\r\xc0\r\xc0\x03\x00\n\x00\xff\x01\x00\x00U\x00\x0b\x00\x04\x03\x00\x01\x02\x00\n\x00\x1c\x00\x1a\x00\x17\x00\x19\x00\x1c\x00\x1b\x00\x18\x00\x1a\x00\x16\x00\x0e\x00\r\x00\x0b\x00\x0c\x00\t\x00\n\x00#\x00\x00\x00\r\x00 \x00\x1e\x06\x01\x06\x02\x06\x03\x05\x01\x05\x02\x05\x03\x04\x01\x04\x02\x04\x03\x03\x01\x03\x02\x03\x03\x02\x01\x02\x02\x02\x03\x00\x0f\x00\x01\x01"
+2017-11-06T21:18:39+0000 [SSHChannel cowrie-discarded-direct-tcpip (305) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] failed to connect: Connection refused
+2017-11-06T21:18:39+0000 [SSHChannel cowrie-discarded-direct-tcpip (305) on SSHService 'ssh-connection' on HoneyPotSSHTransport,3269,134.19.187.75] sending close 305
+2017-11-06T21:19:14+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 178.21.117.189:41289 (10.3.66.85:2222) [session: 3199731b55ce]
+2017-11-06T21:19:14+0000 [HoneyPotSSHTransport,3361,178.21.117.189] Remote SSH version: SSH-2.0-libssh2_1.6.0
+2017-11-06T21:19:14+0000 [HoneyPotSSHTransport,3361,178.21.117.189] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-rsa'
+2017-11-06T21:19:14+0000 [HoneyPotSSHTransport,3361,178.21.117.189] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-06T21:19:14+0000 [HoneyPotSSHTransport,3361,178.21.117.189] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-06T21:19:14+0000 [HoneyPotSSHTransport,3361,178.21.117.189] NEW KEYS
+2017-11-06T21:19:14+0000 [HoneyPotSSHTransport,3361,178.21.117.189] starting service 'ssh-userauth'
+2017-11-06T21:19:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3361,178.21.117.189] 'libuuid' trying auth 'password'
+2017-11-06T21:19:14+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3361,178.21.117.189] login attempt [libuuid/plokijuhy] failed
+2017-11-06T21:19:15+0000 [-] 'libuuid' failed auth 'password'
+2017-11-06T21:19:15+0000 [-] unauthorized login: 
+2017-11-06T21:19:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3361,178.21.117.189] 'libuuid' trying auth 'password'
+2017-11-06T21:19:15+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3361,178.21.117.189] login attempt [libuuid/123654] failed
+2017-11-06T21:19:16+0000 [-] 'libuuid' failed auth 'password'
+2017-11-06T21:19:16+0000 [-] unauthorized login: 
+2017-11-06T21:19:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3361,178.21.117.189] 'libuuid' trying auth 'password'
+2017-11-06T21:19:16+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,3361,178.21.117.189] login attempt [libuuid/1234567] failed
+2017-11-06T21:19:17+0000 [-] 'libuuid' failed auth 'password'
+2017-11-06T21:19:17+0000 [-] unauthorized login: 
+2017-11-06T21:19:17+0000 [HoneyPotSSHTransport,3361,178.21.117.189] connection lost
+2017-11-06T21:19:17+0000 [HoneyPotSSHTransport,3361,178.21.117.189] Connection lost after 3 seconds
+2017-11-06T21:19:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3278,5.188.87.54] got channel 'direct-tcpip' request
+2017-11-06T21:19:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,3278,5.188.87.54] direct-tcp connection request to sacipg02.dtcc.com:25 from ::1:35526
