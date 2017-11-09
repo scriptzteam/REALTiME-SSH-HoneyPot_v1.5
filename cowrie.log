@@ -4948,3 +4948,57 @@
 2017-11-09T21:29:49+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] direct-tcp connection request to 98.138.112.38:25 from ::1:13584
 2017-11-09T21:29:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] got channel 'direct-tcpip' request
 2017-11-09T21:29:54+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] direct-tcp connection request to 98.138.112.38:25 from ::1:20905
+2017-11-09T21:32:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6356,91.195.103.197] got channel 'direct-tcpip' request
+2017-11-09T21:32:18+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6356,91.195.103.197] direct-tcp connection request to smtp.qq.com:25 from ::1:44923
+2017-11-09T21:32:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6356,91.195.103.197] got channel 'direct-tcpip' request
+2017-11-09T21:32:27+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6356,91.195.103.197] direct-tcp connection request to smtp.qq.com:25 from ::1:49012
+2017-11-09T21:32:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] got channel 'direct-tcpip' request
+2017-11-09T21:32:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] direct-tcp connection request to 98.136.217.203:25 from ::1:39153
+2017-11-09T21:32:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] got channel 'direct-tcpip' request
+2017-11-09T21:32:57+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] direct-tcp connection request to 98.136.217.203:25 from ::1:33474
+2017-11-09T21:33:56+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 120.92.118.63:31256 (10.3.66.85:2222) [session: 007c62a16e55]
+2017-11-09T21:33:59+0000 [HoneyPotSSHTransport,6365,120.92.118.63] Remote SSH version: SSH-2.0-paramiko_1.7.5
+2017-11-09T21:33:59+0000 [HoneyPotSSHTransport,6365,120.92.118.63] kex alg, key alg: 'diffie-hellman-group-exchange-sha1' 'ssh-rsa'
+2017-11-09T21:33:59+0000 [HoneyPotSSHTransport,6365,120.92.118.63] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-09T21:33:59+0000 [HoneyPotSSHTransport,6365,120.92.118.63] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-09T21:34:03+0000 [HoneyPotSSHTransport,6365,120.92.118.63] NEW KEYS
+2017-11-09T21:34:06+0000 [HoneyPotSSHTransport,6365,120.92.118.63] starting service 'ssh-userauth'
+2017-11-09T21:34:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6365,120.92.118.63] 'root' trying auth 'password'
+2017-11-09T21:34:07+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6365,120.92.118.63] login attempt [root/] succeeded
+2017-11-09T21:34:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6365,120.92.118.63] 'root' authenticated with 'password'
+2017-11-09T21:34:11+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6365,120.92.118.63] starting service 'ssh-connection'
+2017-11-09T21:34:13+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] got channel 'session' request
+2017-11-09T21:34:13+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] channel open
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] executing command "cat /proc/cpuinfo | grep -E "model|type|imple"; uname -m"
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] Opening TTY Log: log/tty/20171109-213416-007c62a16e55-0e.log
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] CMD: cat /proc/cpuinfo | grep -E "model|type|imple"; uname -m
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] Command found: grep -E "model|type|imple"
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] Command found: cat /proc/cpuinfo
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] Command found: uname -m
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] exitCode: 0
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] sending request 'exit-status'
+2017-11-09T21:34:16+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] sending close 0
+2017-11-09T21:34:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6356,91.195.103.197] got channel 'direct-tcpip' request
+2017-11-09T21:34:17+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6356,91.195.103.197] direct-tcp connection request to bent-hw.21cn.net:25 from ::1:24821
+2017-11-09T21:34:18+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] received eof, sending ctrl-d to command
+2017-11-09T21:34:18+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] Received CTRL-D, exiting..
+2017-11-09T21:34:18+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] exitCode: 0
+2017-11-09T21:34:18+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] Closing TTY Log: log/tty/20171109-213416-007c62a16e55-0e.log after 1 seconds
+2017-11-09T21:34:18+0000 [SSHChannel session (0) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6365,120.92.118.63] remote close
+2017-11-09T21:34:18+0000 [HoneyPotSSHTransport,6365,120.92.118.63] avatar root logging out
+2017-11-09T21:34:18+0000 [HoneyPotSSHTransport,6365,120.92.118.63] connection lost
+2017-11-09T21:34:18+0000 [HoneyPotSSHTransport,6365,120.92.118.63] Connection lost after 21 seconds
+2017-11-09T21:34:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] got channel 'direct-tcpip' request
+2017-11-09T21:34:21+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] direct-tcp connection request to 146.0.234.123:28125 from ::1:38418
+2017-11-09T21:34:21+0000 [SSHChannel cowrie-discarded-direct-tcpip (39) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] discarded direct-tcp forward request to 146.0.234.123:28125 with data 'GET /v/checkIp?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 146.0.234.123:28125\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-11-09T21:34:21+0000 [SSHChannel cowrie-discarded-direct-tcpip (39) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] failed to connect: Connection refused
+2017-11-09T21:34:21+0000 [SSHChannel cowrie-discarded-direct-tcpip (39) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] sending close 39
+2017-11-09T21:34:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] got channel 'direct-tcpip' request
+2017-11-09T21:34:43+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] direct-tcp connection request to 146.0.234.123:28125 from ::1:26940
+2017-11-09T21:34:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] discarded direct-tcp forward request to 146.0.234.123:28125 with data 'GET /v/checkIp?geo=true HTTP/1.1\r\nConnection: close\r\nCache-Control: no-cache\r\nPragma: no-cache\r\nUser-Agent: Java/1.8.0_66\r\nHost: 146.0.234.123:28125\r\nAccept: text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2\r\n\r\n'
+2017-11-09T21:34:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] failed to connect: Connection refused
+2017-11-09T21:34:43+0000 [SSHChannel cowrie-discarded-direct-tcpip (40) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6306,91.195.103.188] sending close 40
+2017-11-09T21:34:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] got channel 'direct-tcpip' request
+2017-11-09T21:34:50+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] direct-tcp connection request to 98.136.217.203:25 from ::1:28948
+2017-11-09T21:34:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] got channel 'direct-tcpip' request
+2017-11-09T21:34:56+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6352,91.195.103.186] direct-tcp connection request to 98.136.217.203:25 from ::1:27894
