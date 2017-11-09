@@ -3868,3 +3868,21 @@
 2017-11-09T05:34:32+0000 [SSHChannel cowrie-discarded-direct-tcpip (12) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6005,5.188.87.55] discarded direct-tcp forward request to www.paypal.com:443 with data '\x16\x03\x01\x01-\x01\x00\x01)\x03\x01Z\x03\xe8\xe7\x9a^\x814\x93\x7f\xb8\x02\x8d\x1e\x8c\xa7H\xfc\t\xd9\x04\\\x18\x86\x96\x1at\xd2\xfd\x92fs\x00\x00\x1c\xc0\x14\xc0\x13\x009\x003\x005\x00/\xc0\n\xc0\t\x008\x002\x00\n\x00\x13\x00\x05\x00\x04\x01\x00\x00\xe4\x00\x00\x00\x13\x00\x11\x00\x00\x0ewww.paypal.com\x00\n\x00\x06\x00\x04\x00\x17\x00\x18\x00\x0b\x00\x02\x01\x00\x00#\x00\xb0\x00\x00\x0enQ"\xb7\xe8\xab\xf8I6a+*E\xfa\x88\xca\xf2\xbf\xe8M.g\x07\xb6\xbcJ\x8f\xb5\xa2x\x07\x0f"\n\x7f\xdf\xd8\x0e\x83\x86\xf5f"\xf1bM\xde\x8a\xaa:\x1f\x836a#\x84\xbf\xa1\xf9r,n\x17\xd9F)\x18\x9e^\xd1\xa9\x80xA.WKd\xc3p.\xea\x06\x88?^\x86\xa3\xe9\x9c\x80`\\\x9a\xf7\xf9\xf3ucp\x05\x87\nMj\x13L\xd6;\xac\x15\xa5\xdf\x85\x92a\xab\xb6\x8c\x87#9-\xdb\xdaK\x1c\x1b\xa4\xe5\xd1\xcca\x9dw\xea\x07]\x80\xc6\xb1\xfbb\xec\x03#\x85\x0f\x8c\xfb\x9bY\x11\xd29\x1d\xba\x98\x05Y);\xc0tP\xf0\xdf\xef\xa4?\xbfm\x97\x00\x17\x00\x00\xff\x01\x00\x01\x00'
 2017-11-09T05:34:32+0000 [SSHChannel cowrie-discarded-direct-tcpip (12) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6005,5.188.87.55] failed to connect: Connection refused
 2017-11-09T05:34:32+0000 [SSHChannel cowrie-discarded-direct-tcpip (12) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6005,5.188.87.55] sending close 12
+2017-11-09T05:36:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5999,91.195.103.178] got channel 'direct-tcpip' request
+2017-11-09T05:36:34+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5999,91.195.103.178] direct-tcp connection request to 98.138.112.32:25 from ::1:25843
+2017-11-09T05:36:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5999,91.195.103.178] got channel 'direct-tcpip' request
+2017-11-09T05:36:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,5999,91.195.103.178] direct-tcp connection request to 98.138.112.32:25 from ::1:15059
+2017-11-09T05:37:38+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 111.167.18.174:33653 (10.3.66.85:2222) [session: 2b6266f341c4]
+2017-11-09T05:37:39+0000 [HoneyPotSSHTransport,6052,111.167.18.174] Remote SSH version: SSH-2.0-sshlib-0.1
+2017-11-09T05:37:39+0000 [HoneyPotSSHTransport,6052,111.167.18.174] kex alg, key alg: 'diffie-hellman-group14-sha1' 'ssh-dss'
+2017-11-09T05:37:39+0000 [HoneyPotSSHTransport,6052,111.167.18.174] outgoing: 'aes128-cbc' 'hmac-md5' 'none'
+2017-11-09T05:37:39+0000 [HoneyPotSSHTransport,6052,111.167.18.174] incoming: 'aes128-cbc' 'hmac-md5' 'none'
+2017-11-09T05:37:40+0000 [HoneyPotSSHTransport,6052,111.167.18.174] NEW KEYS
+2017-11-09T05:37:40+0000 [HoneyPotSSHTransport,6052,111.167.18.174] starting service 'ssh-userauth'
+2017-11-09T05:37:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6052,111.167.18.174] 'root' trying auth 'password'
+2017-11-09T05:37:40+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6052,111.167.18.174] login attempt [root/rpitc] succeeded
+2017-11-09T05:37:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6052,111.167.18.174] 'root' authenticated with 'password'
+2017-11-09T05:37:42+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6052,111.167.18.174] starting service 'ssh-connection'
+2017-11-09T05:37:42+0000 [HoneyPotSSHTransport,6052,111.167.18.174] avatar root logging out
+2017-11-09T05:37:42+0000 [HoneyPotSSHTransport,6052,111.167.18.174] connection lost
+2017-11-09T05:37:42+0000 [HoneyPotSSHTransport,6052,111.167.18.174] Connection lost after 3 seconds
