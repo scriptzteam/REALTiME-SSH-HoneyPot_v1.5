@@ -2874,3 +2874,56 @@
 2017-11-09T04:05:00+0000 [HoneyPotSSHTransport,6019,193.201.224.206] kex alg, key alg: 'diffie-hellman-group-exchange-sha256' 'ssh-rsa'
 2017-11-09T04:05:00+0000 [HoneyPotSSHTransport,6019,193.201.224.206] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
 2017-11-09T04:05:00+0000 [HoneyPotSSHTransport,6019,193.201.224.206] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-09T04:05:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6010,91.195.103.188] got channel 'direct-tcpip' request
+2017-11-09T04:05:52+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6010,91.195.103.188] direct-tcp connection request to chek.zennolab.com:80 from ::1:30386
+2017-11-09T04:05:52+0000 [SSHChannel cowrie-discarded-direct-tcpip (11) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6010,91.195.103.188] discarded direct-tcp forward request to chek.zennolab.com:80 with data 'GET /proxy.php HTTP/1.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nConnection: Close\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0\r\nAccept-Language: en-US,en;q=0.5\r\nCache-Control: max-age=0\r\nReferer: RefererString\r\nCookie: param1=CookieString\r\nAccept-Encoding: gzip\r\nHost: chek.zennolab.com\r\n\r\n'
+2017-11-09T04:05:52+0000 [SSHChannel cowrie-discarded-direct-tcpip (11) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6010,91.195.103.188] failed to connect: Connection refused
+2017-11-09T04:05:52+0000 [SSHChannel cowrie-discarded-direct-tcpip (11) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6010,91.195.103.188] sending close 11
+2017-11-09T04:05:55+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.80.24.132:58209 (10.3.66.85:2222) [session: 1c2f2215de52]
+2017-11-09T04:05:55+0000 [HoneyPotSSHTransport,6020,183.80.24.132] Remote SSH version: SSH-2.0-Granados-1.0
+2017-11-09T04:05:55+0000 [HoneyPotSSHTransport,6020,183.80.24.132] Disconnecting with error, code 3
+	reason: couldn't match all kex parts
+2017-11-09T04:05:55+0000 [HoneyPotSSHTransport,6020,183.80.24.132] connection lost
+2017-11-09T04:05:55+0000 [HoneyPotSSHTransport,6020,183.80.24.132] Connection lost after 0 seconds
+2017-11-09T04:06:41+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 183.80.24.132:63223 (10.3.66.85:2222) [session: f0435ef89f72]
+2017-11-09T04:06:42+0000 [HoneyPotSSHTransport,6021,183.80.24.132] Remote SSH version: SSH-2.0-Granados-1.0
+2017-11-09T04:06:42+0000 [HoneyPotSSHTransport,6021,183.80.24.132] Disconnecting with error, code 3
+	reason: couldn't match all kex parts
+2017-11-09T04:06:42+0000 [HoneyPotSSHTransport,6021,183.80.24.132] connection lost
+2017-11-09T04:06:42+0000 [HoneyPotSSHTransport,6021,183.80.24.132] Connection lost after 0 seconds
+2017-11-09T04:07:00+0000 [-] Authentication Timeout reached
+2017-11-09T04:07:00+0000 [HoneyPotSSHTransport,6019,193.201.224.206] connection lost
+2017-11-09T04:07:00+0000 [HoneyPotSSHTransport,6019,193.201.224.206] Connection lost after 120 seconds
+2017-11-09T04:07:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6002,91.195.103.201] got channel 'direct-tcpip' request
+2017-11-09T04:07:40+0000 [SSHService 'ssh-connection' on HoneyPotSSHTransport,6002,91.195.103.201] direct-tcp connection request to check2.zennolab.com:80 from ::1:40537
+2017-11-09T04:07:41+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6002,91.195.103.201] discarded direct-tcp forward request to check2.zennolab.com:80 with data 'GET /proxy.php HTTP/1.1\r\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\r\nConnection: Close\r\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:45.0) Gecko/20100101 Firefox/45.0\r\nAccept-Language: en-US,en;q=0.5\r\nCache-Control: max-age=0\r\nReferer: RefererString\r\nCookie: param1=CookieString\r\nAccept-Encoding: gzip\r\nHost: check2.zennolab.com\r\n\r\n'
+2017-11-09T04:07:41+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6002,91.195.103.201] failed to connect: Connection refused
+2017-11-09T04:07:41+0000 [SSHChannel cowrie-discarded-direct-tcpip (1) on SSHService 'ssh-connection' on HoneyPotSSHTransport,6002,91.195.103.201] sending close 1
+2017-11-09T04:08:19+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 134.249.137.72:55588 (10.3.66.85:2222) [session: eed8c101fbe0]
+2017-11-09T04:08:19+0000 [cowrie.ssh.factory.CowrieSSHFactory] New connection: 134.249.137.72:55590 (10.3.66.85:2222) [session: a0c2cf6dedab]
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6022,134.249.137.72] Remote SSH version: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u3
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6022,134.249.137.72] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6022,134.249.137.72] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6022,134.249.137.72] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6023,134.249.137.72] Remote SSH version: SSH-2.0-OpenSSH_6.7p1 Raspbian-5+deb8u3
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6023,134.249.137.72] kex alg, key alg: 'ecdh-sha2-nistp256' 'ssh-rsa'
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6023,134.249.137.72] outgoing: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6023,134.249.137.72] incoming: 'aes128-ctr' 'hmac-sha1' 'none'
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6022,134.249.137.72] NEW KEYS
+2017-11-09T04:08:19+0000 [HoneyPotSSHTransport,6023,134.249.137.72] NEW KEYS
+2017-11-09T04:08:20+0000 [HoneyPotSSHTransport,6022,134.249.137.72] starting service 'ssh-userauth'
+2017-11-09T04:08:20+0000 [HoneyPotSSHTransport,6023,134.249.137.72] starting service 'ssh-userauth'
+2017-11-09T04:08:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6022,134.249.137.72] 'pi' trying auth 'none'
+2017-11-09T04:08:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6023,134.249.137.72] 'pi' trying auth 'none'
+2017-11-09T04:08:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6022,134.249.137.72] 'pi' trying auth 'password'
+2017-11-09T04:08:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6022,134.249.137.72] login attempt [pi/raspberryraspberry993311] failed
+2017-11-09T04:08:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6023,134.249.137.72] 'pi' trying auth 'password'
+2017-11-09T04:08:20+0000 [SSHService 'ssh-userauth' on HoneyPotSSHTransport,6023,134.249.137.72] login attempt [pi/raspberry] failed
+2017-11-09T04:08:21+0000 [-] 'pi' failed auth 'password'
+2017-11-09T04:08:21+0000 [-] unauthorized login: 
+2017-11-09T04:08:21+0000 [-] 'pi' failed auth 'password'
+2017-11-09T04:08:21+0000 [-] unauthorized login: 
+2017-11-09T04:08:21+0000 [HoneyPotSSHTransport,6022,134.249.137.72] connection lost
+2017-11-09T04:08:21+0000 [HoneyPotSSHTransport,6022,134.249.137.72] Connection lost after 1 seconds
+2017-11-09T04:08:21+0000 [HoneyPotSSHTransport,6023,134.249.137.72] connection lost
+2017-11-09T04:08:21+0000 [HoneyPotSSHTransport,6023,134.249.137.72] Connection lost after 1 seconds
